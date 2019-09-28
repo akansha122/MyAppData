@@ -6,6 +6,7 @@ private String name;
 public void setBookId(Integer bid)
 {
 	this.bookId= bid;
+	System.out.println("BookId is set");
 }
 public int getBookId()
 {
